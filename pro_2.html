@@ -12,6 +12,9 @@
 
     <title>TODOs List</title>
 </head>
+<style>
+    body {background-color: lightgreen;}
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -52,7 +55,9 @@
         </div>
     </nav>
 
-    <div class="container my-4">
+    <div class="container my-4" style="
+    background-color: darkseagreen;
+">
         <h2 class="text-center">TODOs List</h2>
 
         <div class="form-group">
@@ -82,14 +87,7 @@
                         <th scope="col">Actions</th>
                     </tr>
                 </thead>
-                <tbody id="tableBody">
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Get some Coffee</td>
-                        <td>You need coffee as you are a coder</td>
-                        <td><button class="btn btn-sm btn-primary">Delete</button></td>
-                    </tr>
-                </tbody>
+                <tbody id="tableBody"></tbody>
             </table>
         </div>
     </div>
